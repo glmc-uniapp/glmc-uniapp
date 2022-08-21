@@ -7,7 +7,7 @@ import {
 
 uni.$http = $http
 
-$http.baseUrl = 'http://localhost:9001'
+$http.baseUrl = 'http://localhost:'
 
 $http.beforeRequest = function(options) {
 	uni.showLoading({
