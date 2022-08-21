@@ -1,0 +1,43 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			
+			"enablePullDownRefresh": true
+		}
+
+	}, {
+		"path": "pages/my/my",
+		"style": {
+
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "报修系统",
+		"navigationBarBackgroundColor": "#2ff8c6",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+
+		"list": [{
+			"pagePath": "pages/home/home",
+			"text": "首页",
+			"iconPath": "./static/tarbar/home.png",
+			"selectedIconPath": "./static/tarbar/clickhome.png"
+
+
+		}, {
+			"pagePath": "pages/my/my",
+			"text": "我的",
+			"iconPath": "./static/tarbar/my.png",
+			"selectedIconPath": "./static/tarbar/clickmy.png"
+
+		}]
+	}
+}
